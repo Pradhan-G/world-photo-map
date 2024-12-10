@@ -1,14 +1,14 @@
 {
-  "homepage":"https://Pradhan-G.github.io/world-photo-map",
+  "homepage": "https://Pradhan-G.github.io/world-photo-map",
   "name": "world-photo-map",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-  "leaflet": "^1.7.1",
-  "react": "^18.0.0",
-  "react-dom": "^18.0.0",
-  "react-leaflet": "^4.0.0"
-},
+    "leaflet": "^1.7.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-leaflet": "^4.0.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
@@ -34,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
 }
